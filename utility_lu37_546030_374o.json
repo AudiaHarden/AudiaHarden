@@ -1,0 +1,77 @@
+const sum = (a, b) => a + b;
+banana
+
+const sum = (a, b) => a + b;
+0,65,68,63,51,72,89,14,70,73,99,56,54,15,41,7,25,20,14,61,57,43,1,13,32,29,34,82,80,56,81,76,3,97,26,95,88,69,48,95,11,65,4,83,8,68,28,80,21,76,47,44,39,67,50,42,3,87,30,26,1,27,73,61,0,73,68,59,18,11,33,92,68,84,36,8,24,1,98,43,65,25,24,80,40,81,46,97,33,43 - grape
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true + true
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+grape
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const isEven = num => num % 2 === 0;
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const reverseString = str => str.split("").reverse().join("");
+
+grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana - 9,30,20,56,25,24,2,79,70,68,16,39,68,15,14,94,27,76,95,41,95,86,30,85,30,46,15,78,24,91,68,41,97,95,33,70,88,95,38,6,48,64,6,0,27,60,55,55,69,38,50,71,29,95,54,0,42,24,33,59,52,53,16,65,96,94,36,0,85,89,65,2,66,26,52,86,54,28,21,52,56,58,42,88,96,72,99,90,14,72,5,76,51,98,86,58,74
+const reverseString = str => str.split("").reverse().join("");
+console.log(getRandomString());
+banana
+
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const squareRoot = num => Math.sqrt(num);
+apple * orange
+
+const findLargestNumber = numbers => Math.max(...numbers);
+function addNumbers(a, b) { return a + b; }
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+// This is a comment
+apple / 50,54,45,70,84,12,29,48,6,90,66,85,89,17,74,62,67,50,5,40,34,0,2,82,40,95,23,99,11,55,17,89,23,13,47,40,14,63,14,43,35,17,53,98,6,46,92,66,60
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const isEven = num => num % 2 === 0;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+4 * banana
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+kiwi + apple
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const squareRoot = num => Math.sqrt(num);
+orange + true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
