@@ -1,0 +1,29 @@
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+kiwi * 44
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const squareRoot = num => Math.sqrt(num);
+
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+const isEven = num => num % 2 === 0;
+
+4,64,48,1,25,20,1,33,45,92,7,46,21,36,91,16,49,89,14,41,18,91,62,30,83,41,34,68,42,67,88,83,65,45,83,40,46,25,62,51,23,46,42,16,66,71,38,47,2,26,67,88,78,41,34,83,75,29,43,47,10,96,21,87,83,33,90,37,42,82,94,54,53,82,95,12,93,15 * orange
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+orange
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const capitalizeString = str => str.toUpperCase();
+true * false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+apple
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
